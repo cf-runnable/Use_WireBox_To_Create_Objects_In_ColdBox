@@ -14,7 +14,7 @@
 	<cfset greeterService = getModel("GreeterService")>
 	
 	<!--- Create a person called Brad Wood --->
-	<cfset brad = getModel("person").setName("Brad Wood")>
+	<cfset brad = getModel("Person").setName("Brad Wood")>
 	<p>
 		<!--- Greet Brad --->
 		#greeterService.greet(brad)#
@@ -22,7 +22,7 @@
 	
 	
 	<!--- Create a different person called Luis Majano --->
-	<cfset luis = getModel("person").setName("Luis Majano")>
+	<cfset luis = getModel("Person").setName("Luis Majano")>
 	<p>
 		<!--- Greet Luis --->
 		#greeterService.greet(luis)#
@@ -30,7 +30,7 @@
 	
 	
 	<!--- Who gets stuck with all the bad luck? --->
-	<cfset donald = getModel("person").setName("Donald Duck")>
+	<cfset donald = getModel("Person").setName("Donald Duck")>
 	<p>
 		<!--- Since our service is a singleton, calling getModel() again will 
 			return the same instance we had above --->
