@@ -1,1 +1,1 @@
-﻿component {	// Default Action	function index(event, rc, prc) {						// By default, we will run the view /views/Main/index.cfm  	}}
+﻿// This is our ColdBox handler (Controller)component {	// Default Action	function index(event, rc, prc) {						// The view "/views/Main/index.cfm" will be run by convention  	}}
