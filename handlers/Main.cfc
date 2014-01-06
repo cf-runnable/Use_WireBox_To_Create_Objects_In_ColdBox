@@ -1,0 +1,1 @@
+﻿component {	// Default Action	function index(event, rc, prc) {						// By default, we will run the view /views/Main/index.cfm  	}}

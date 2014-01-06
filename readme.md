@@ -1,0 +1,1 @@
+The ColdBox MVC Platform comes embedded with WireBox for object creation.  WireBox requires no configuration to start using and will automatically look for objects that you request by name in the /model folder.  Ask WireBox to only create a single instance of CFC by adding the "singleton" annotation to the component.  In our example, we use getModel() to request our CFCs.
