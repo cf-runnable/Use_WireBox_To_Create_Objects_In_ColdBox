@@ -10,16 +10,14 @@
 		<!--- Greet Brad --->
 		#greeterService.greet(brad)#
 	</p>
-	
-	
+		
 	<!--- Create a different person called Luis Majano --->
 	<cfset luis = getModel("Person").setName("Luis Majano")>
 	<p>
 		<!--- Greet Luis --->
 		#greeterService.greet(luis)#
 	</p>
-	
-	
+		
 	<!--- Who gets stuck with all the bad luck? --->
 	<cfset donald = getModel("Person").setName("Donald Duck")>
 	<p>
